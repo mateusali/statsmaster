@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "statsmaster"
+version = "0.1.0"
+description = "A powerful statistics library"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mateus Augusto da Silva Ali Fontes", email = "mateusalifontes@gmail.com" }]
+requires-python = ">=3.7"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+]
+
+[project.urls]
+#Homepage = "https://github.com/mateusali/statsmaster"
+Repository = "https://github.com/mateusali/statsmaster"
